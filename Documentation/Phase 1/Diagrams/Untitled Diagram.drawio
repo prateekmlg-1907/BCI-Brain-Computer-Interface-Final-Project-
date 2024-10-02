@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="W2LL2l2fjhXlFBPnol_c">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-27" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="423" y="90" width="51" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-28" target="N5zY-_TfEtoVRey-_f1n-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="498" y="200" />
+              <mxPoint x="810" y="200" />
+              <mxPoint x="810" y="779" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-28" value="Select Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="174" width="98" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-29" value="Home Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="71" y="258" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-30" value="Display Introduction and Instructions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="342" width="279" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-31" value="About Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297" y="258" width="96" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-32" value="Show Dataset Information" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349" y="342" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-33" value="Disease Recognition Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="562" y="258" width="195" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-34" value="Upload Image" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="603" y="342" width="113" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-37" value="Load TensorFlow Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="569" y="426" width="181" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-38" value="Preprocess Image" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="139" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-39" value="Make Prediction" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="595" y="594" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-40" value="Display Result" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="602" y="678" width="115" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-41" value="End" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="705" y="762" width="41" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-27" target="N5zY-_TfEtoVRey-_f1n-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.68;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-28" target="N5zY-_TfEtoVRey-_f1n-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.44;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-29" target="N5zY-_TfEtoVRey-_f1n-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0;entryY=0.82;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-30" target="N5zY-_TfEtoVRey-_f1n-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="317" />
+              <mxPoint x="262" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.51;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-28" target="N5zY-_TfEtoVRey-_f1n-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.29;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-31" target="N5zY-_TfEtoVRey-_f1n-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=0;entryX=0.67;entryY=1;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-32" target="N5zY-_TfEtoVRey-_f1n-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="317" />
+              <mxPoint x="490" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.79;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-28" target="N5zY-_TfEtoVRey-_f1n-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-33" target="N5zY-_TfEtoVRey-_f1n-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="N5zY-_TfEtoVRey-_f1n-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="659.5" y="376" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-37" target="N5zY-_TfEtoVRey-_f1n-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-38" target="N5zY-_TfEtoVRey-_f1n-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-39" target="N5zY-_TfEtoVRey-_f1n-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N5zY-_TfEtoVRey-_f1n-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.01;entryY=0.11;rounded=0;" edge="1" parent="1" source="N5zY-_TfEtoVRey-_f1n-40" target="N5zY-_TfEtoVRey-_f1n-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
